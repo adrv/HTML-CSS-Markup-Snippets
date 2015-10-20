@@ -1,0 +1,315 @@
+body {
+	background-image: url("./resources/bg.png");
+	color: #979695;
+	font-family: Gudea;
+	font-weight: 400;
+}
+
+body > * {
+	width: 1000px;
+	background-color: rgba(255, 255, 255, 0.75);
+	margin: 0 auto 17px auto;
+	padding: 37px;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+h1, h2, h3 {
+  font-family: Raleway;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h2 {
+	font-size: 26px;
+	margin: 25px 0;
+}
+
+h1 {
+	font-size: 28px;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: #979695;
+}
+
+p {
+	line-height: 1.5em;
+	font-size: 14px;
+}
+
+ul li {
+  list-style: none;
+}
+
+header {
+	margin-top: 65px
+}
+
+header .logo {
+  display: inline-block;
+}
+
+header #header-menu {
+	margin: -13px 0 0 284px;
+	font-size: 13px;
+}
+
+header #header-menu ul li {
+  float: left;
+  border-right: 1px solid #979695;
+  padding: 0 5px;
+}
+
+header #header-menu ul li:last-child {
+  border: none;
+}
+
+.pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.active {
+  color: #b6c18a;
+}
+
+#currency {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.welcome-status {
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: -10px;
+}
+
+.welcome-message {
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.items-message {
+	margin-left: 43px;
+}
+
+.busket-img {
+	float: left;
+}
+
+#main-nav {
+	margin-top: 30px;
+}
+
+#main-nav ul li{
+  float: left;
+}
+
+#main-nav ul li a:hover {
+	color: #b6c18a;
+}
+
+#main-nav > ul > li:first-child a div{
+	padding-left: 0;
+}
+
+#main-nav ul li a div {
+  padding: 10px 15px;
+}
+
+#main-nav ul li.expandable:hover ul {
+  display: block;
+}
+
+#main-nav ul li ul {
+	display: none;
+	position: absolute;
+}
+
+#main-nav ul li ul li {
+	float: none;
+}
+
+#main-nav ul li ul li div {
+	padding: 5px 18px;
+	background-color: rgba(255, 255, 255, 0.75);
+}
+
+input[type=text] {
+	padding: 3px;
+	box-sizing: border-box;
+	height: 2em;
+	border: 1px solid #cdc5bb;
+	background-color: #eee6db;
+	color: #979695;
+}
+
+input[type=text]:focus {
+	background-color: white;
+}
+
+#search-bar {
+	float: right;
+	width: 221px;
+}
+
+#header-nav {
+	margin-top: 38px;
+}
+
+
+.carousel #picture {
+  width: 74%;
+  height: 374px;
+  box-sizing: border-box;
+  background-image: url('resources/adv.png');
+  float: left;
+  padding: 37px;
+  color: white;
+}
+
+.carousel #side {
+  width: 26%;
+  padding-left: 19px;
+  box-sizing:border-box;
+  float: right;
+}
+
+.carousel #sale-on {
+  background-image: url('resources/sales_on.png');
+  height: 257px;
+  width: 220px;
+}
+
+.carousel p {
+	padding: 15px 0;
+}
+
+.carousel p img {
+  float: right;
+}
+
+.carousel input {
+  width: 100%;
+}
+
+.products-section {
+	margin-bottom: 55px;
+}
+
+article {
+	width: 218px;
+	margin-right: 14px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+article:last-child {
+	margin-right: 0;
+}
+
+article .active {
+	font-size: 16px;
+	margin: 15px 0;
+}
+
+.buttons-bar {
+	margin-top: 16px;
+}
+
+.buttons-bar > button {
+	margin-right: 14px;
+}
+
+button {
+  border: 1px solid #cec7bd;
+  padding: 3px;
+  color: #979695;
+  background: -webkit-linear-gradient(#f6f1ec, #ded9d3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#f6f1ec, #ded9d3); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#f6f1ec, #ded9d3); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#f6f1ec, #ded9d3); /* Standard syntax */
+}
+
+.hr {
+	width: 100%;
+	height: 2px;
+	background-image: url("resources/hr.png");
+	margin: 25px 0;
+}
+
+
+/* ------- FOOTER -------*/
+
+footer > article {
+	border-right: 1px dotted;
+	line-height: 1.7em;
+	font-size: 14px;
+	height: 185px;
+}
+
+footer > article:last-child {
+	border: none;
+	float: right;
+}
+
+footer h3 {
+	margin: 3px 0 18px 0;
+}
+
+footer p {
+  margin-bottom: 32px;
+  padding-right: 38px;
+}
+
+footer .header-description {
+  font-weight: 600;
+  color: #936d5c;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+footer .cards-holder {
+	width: 224px;
+	height: 40px;
+	margin-top: 31px;
+	background-image: url(resources/cards.png);
+}
+
+.email-link {
+  border-bottom: 1px  #979695 dotted;
+}
+
+/* ------- /FOOTER -------*/
+
+.cr {
+  background: none;
+  font-size: 12px;
+}
+
+.logo-small {
+	width: 125px;
+	height: 33px;
+	background-image: url(resources/logo_small.png);
+	margin-bottom: 10px;
+}
+
+.subscribe-social {
+	width: 67px;
+	height: 29px;
+	background-image: url(resources/subscribe.png);
+}
